@@ -1,4 +1,5 @@
 // import noCommision from './public/noCommision.svg';
+import React from 'react';
 import './App.css';
 
 function Banner() {
@@ -6,7 +7,7 @@ function Banner() {
     <section id="banner" className='py-12'>
       <div className='container-fluid mx-auto px-4 md:container md:mx-auto'>
         <div className='row'>
-          <div className='col-12 text-center'>
+          <div className='text-center'>
             
             <div className='sub-title bg-subTitleBgColor inline-block py-1 px-2 my-3'>
               <p className='text-subTitleTextColor text-xs md:text-sm font-bold'>
