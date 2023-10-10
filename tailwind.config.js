@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         blueColor: "#1271E5",
+        purple: "#29206C",
         orangeColor: "#F07164",
         skyBlueColor: "#D8E9FF",
         subTitleTextColor: "#3D5A80",
@@ -18,12 +19,8 @@ module.exports = {
         lightPurpleBgColor: "#F0EEFA",
         purpleBorderColor: "#F0EEFA",
         searchbarBorderColor: "#C9C4C4",
-      },
-      // fontSize: {
-      //   bannerTitleTextSize: "40px",
-      //   bannerSubTitleTextSize: "20px",
-      //   subTitleText: "14px",
-      // },
+        ShadowColor: "rgba(240, 114, 100, 0.4)",
+      }, 
     },
   },
   plugins: [],

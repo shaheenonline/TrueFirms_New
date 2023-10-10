@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navigation from './Navigation';
+import StickyNavbar from './Navigation';
 import Banner from './Banner';
 import Benefits from './Benefits';
+import Faq from './Faq';
+import Contact from './Contact';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navigation />
+    <StickyNavbar />
     <Banner />
     <Benefits />
+    <Faq />
+    <Contact />
+    <Footer />
   </React.StrictMode>
 );
 

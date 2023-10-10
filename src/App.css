@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+/* faq css start */
+#faq {
+  background-color: #F0EEFB;
+  padding: 30px 0;
+}
+.faq-container {
+  background: #fff;
+  width: 80%;
+  border-radius: 0.6rem;
+  margin: auto;
+  padding: 40px 10px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-55%);
+}
+.hero .img {
+  filter: drop-shadow(0rem 1.5rem rgba(0,0,0,0.1));
+  transition: 0.3s ease-out;
+}
+.card:hover .img {
+  filter: drop-shadow(0rem 2.5rem rgba(0,0,0,0.1));
+}
+.title {
+  text-align: center;
+  font-size: 5rem;
+  padding: 1rem;
+}
+.acc-btn {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background: inherit;
+  border: none;
+  outline: none;
+  text-align: left;
+  transition: all 0.5s linear;
+}
+.acc-btn:after {
+  content: "\27A4";
+  color: #f07164;
+  float: right;
+  transition: all 0.3s linear;
+}
+.acc-btn.is-open:after {
+  transform: rotate(90deg);
+}
+.acc-btn:hover, .acc-btn.is-open {
+  color: #000;
+  font-weight: 500;
+}
+.acc-btn:focus {
+  outline: 1px solid #dcd5ff;
+  background-color: #f0eefa;
+  border-radius: 5px;
+}
+.acc-content {
+  max-height: 0;
+  color: rgba(0,0,0,0.75);
+  font-size: 1.2rem;
+  margin: 0 2rem;
+  padding-left: 1rem;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  border-bottom: 1px solid #ccc;
+}
+.acc-content p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 560px){
+  .acc-content p{font-size: 14px;}
+  .acc-btn{font-size: 18px; }
+  .faq-container{width: 90%;}
+}
+/* faq css end */

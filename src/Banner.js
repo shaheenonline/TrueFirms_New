@@ -4,30 +4,30 @@ import './App.css';
 
 function Banner() {
   return (
-    <section id="banner" className='py-12'>
+    <section id="banner" className='py-10 sm:py-20 bg-slate-100'>
       <div className='container-fluid mx-auto px-4 md:container md:mx-auto'>
         <div className='row'>
           <div className='text-center'>
             
-            <div className='sub-title bg-subTitleBgColor inline-block py-1 px-2 my-3'>
+            {/* <div className='sub-title bg-subTitleBgColor inline-block py-1 px-2 my-3'>
               <p className='text-subTitleTextColor text-xs md:text-sm font-bold'>
                 AI Powered | Data-Driven | B2B
               </p>
-            </div>
+            </div> */}
 
             <div className='banner-title my-1'>
-              <h1 className='text-black text-xl md:text-[40px] font-bold'>
-                An IT Staff Augmentation Marketplace
+              <h1 className='text-black text-xl sm:text-5xl font-bold'>
+              An AI Powered Staff Augmentation Marketplace
               </h1>
             </div>
 
             <div className='banner-sub-title my-5'>
               <h2 className='text-sm md:text-xl'>
-                Hire Ready-To-Deploy Software Developers From 30,000+ Vetted Service Providers Worldwide.
+              Hire Ready-To-Deploy Technology Talents From Thousands Of Pre-Vetted Service Providers Worldwide.
               </h2>
             </div>
 
-            <div className='banner-noCommision flex flex-wrap items-center justify-center gap-1 md:gap-3'>
+            {/* <div className='banner-noCommision flex flex-wrap items-center justify-center gap-1 md:gap-3'>
               <span className='inline-block'>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_140_345)">
@@ -66,23 +66,23 @@ function Banner() {
                 </svg>
               </span>
               <span className='inline-block italic text-[10px] md:text-base'>Work directly with trust.</span>
-            </div>
+            </div> */}
 
             <div className="mb-3 mt-4 md:mt-10">
               <div className="relative mb-4 flex flex-wrap items-center justify-end w-full md:w-[80%] mx-auto">
                 <input
                   type="search"
-                  className="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-full border-2 h-[50px] md:h-[60px] border-solid
-                   border-searchbarBorderColor bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6]
+                  className="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-full h-[50px] md:h-[60px]
+                  shadow-[0_0px_15px_0px_rgba(0,0,0,0.3)] bg-white bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6]
                    text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-2 
                    focus:border-blueColor focus:text-neutral-700 focus:outline-none dark:border-searchbarBorderColor
                   dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-blueColor"
-                  placeholder="What are you looking for..."
+                  placeholder="   What are you looking for..."
                   aria-label="Search"
                   aria-describedby="button-addon1" />
 
                 <button
-                  className="absolute z-[2] flex items-center rounded-full bg-blueColor px-6 py-2.5 mr-1 text-xs md:text-lg font-medium uppercase leading-tight text-white transition duration-150 ease-in-out hover:bg-orangeColor focus:bg-orangeColor focus:outline-none focus:ring-0 active:bg-primary-800 active:bg-orangeColor"
+                  className="absolute z-[3] flex items-center rounded-full bg-[#1271E5] px-6 py-2.5 mr-1 text-xs md:text-lg font-medium uppercase leading-tight text-white transition duration-150 ease-in-out hover:bg-orangeColor focus:bg-orangeColor focus:outline-none focus:ring-0 active:bg-primary-800 active:bg-orangeColor"
                   type="button"
                   id="button-addon1"
                   data-te-ripple-init
@@ -93,9 +93,9 @@ function Banner() {
                     fill="currentColor"
                     className="h-5 w-5 mr-1">
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-                      clip-rule="evenodd" />
+                      clipRule="evenodd" />
                   </svg>
                   SEARCH
                 </button>
@@ -103,25 +103,25 @@ function Banner() {
             </div>
 
             <div className='flow-root flex-cols-2 w-full md:w-[80%] mx-auto'>
-              <div className='flex flex-cols-5 gap-1 md:gap-4 float-left'>
+              <div className='flex flex-cols-5 gap-1 md:gap-3 float-left'>
                 <a href='#' className='bg-skyBlueColor py-1 px-3 rounded-full hover:bg-orangeColor'>
-                  <p className='text-blueColor font-semibold text-[10px] md:text-base hover:text-white'>JavaScript</p>
+                  <p className='text-purple font-semibold text-[10px] md:text-base hover:text-white'>JavaScript</p>
                 </a>
                 <a href='#' className='bg-skyBlueColor py-1 px-3 rounded-full hover:bg-orangeColor'>
-                  <p className='text-blueColor font-semibold text-[10px] md:text-base hover:text-white'>Python</p>
+                  <p className='text-purple font-semibold text-[10px] md:text-base hover:text-white'>Python</p>
                 </a>
                 <a href='#' className='bg-skyBlueColor py-1 px-3 rounded-full hover:bg-orangeColor'>
-                  <p className='text-blueColor font-semibold text-[10px] md:text-base hover:text-white'>Java</p>
+                  <p className='text-purple font-semibold text-[10px] md:text-base hover:text-white'>Java</p>
                 </a>
                 <a href='#' className='bg-skyBlueColor py-1 px-3 rounded-full hover:bg-orangeColor'>
-                  <p className='text-blueColor font-semibold text-[10px] md:text-base hover:text-white'>Php</p>
+                  <p className='text-purple font-semibold text-[10px] md:text-base hover:text-white'>Php</p>
                 </a>
                 <a href='#' className='bg-skyBlueColor py-1 px-3 rounded-full hover:bg-orangeColor'>
-                  <p className='text-blueColor font-semibold text-[10px] md:text-base hover:text-white'>Swift</p>
+                  <p className='text-purple font-semibold text-[10px] md:text-base hover:text-white'>Swift</p>
                 </a>
               </div>
               <div className='float-right'>
-                <a href='#' className='text-orangeColor underline font-semibold text-[12px] md:text-base xl:text-lg hover:text-blueColor'>
+                <a href='#' className='text-orangeColor font-semibold text-[12px] md:text-base xl:text-lg hover:underline'>
                   Advanced Search
                 </a>
               </div>
@@ -130,7 +130,7 @@ function Banner() {
             <div className='flex justify-center mt-8 items-center'>
               <span>
                 <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.12649 0.585671C9.27587 0.521576 9.43671 0.488525 9.59925 0.488525C9.76178 0.488525 9.92263 0.521576 10.072 0.585671L17.7442 3.87752C18.176 4.06278 18.5439 4.3708 18.8025 4.7634C19.061 5.156 19.1987 5.61591 19.1985 6.0861V14.3247C19.1984 15.8066 18.8068 17.2622 18.0636 18.5438C17.3204 19.8255 16.2519 20.8878 14.9664 21.623L10.1944 24.3516C10.0131 24.4553 9.808 24.5098 9.59925 24.5098C9.3905 24.5098 9.18536 24.4553 9.0041 24.3516L4.23207 21.623C2.94621 20.8876 1.87749 19.8249 1.13426 18.5428C0.391033 17.2607 -0.000277774 15.8046 1.47938e-07 14.3223V6.0861C5.20087e-05 5.61611 0.137865 5.15647 0.396366 4.7641C0.654866 4.37174 1.0227 4.0639 1.45429 3.87873L9.12649 0.588073V0.585671ZM14.0473 10.9464C14.2659 10.7199 14.3868 10.4165 14.3841 10.1017C14.3814 9.78677 14.2552 9.48555 14.0327 9.26288C13.8102 9.04021 13.5093 8.91391 13.1946 8.91117C12.88 8.90844 12.5769 9.02949 12.3506 9.24825L8.39934 13.203L6.84786 11.6502C6.62156 11.4314 6.31846 11.3104 6.00385 11.3131C5.68924 11.3158 5.38829 11.4421 5.16581 11.6648C4.94334 11.8875 4.81715 12.1887 4.81442 12.5036C4.81168 12.8185 4.93263 13.1219 5.1512 13.3484L7.55101 15.7503C7.77603 15.9754 8.08117 16.1019 8.39934 16.1019C8.71752 16.1019 9.02266 15.9754 9.24768 15.7503L14.0473 10.9464Z" fill="#00D280"/>
+                  <path fillRule="evenodd" clipRule="evenodd" d="M9.12649 0.585671C9.27587 0.521576 9.43671 0.488525 9.59925 0.488525C9.76178 0.488525 9.92263 0.521576 10.072 0.585671L17.7442 3.87752C18.176 4.06278 18.5439 4.3708 18.8025 4.7634C19.061 5.156 19.1987 5.61591 19.1985 6.0861V14.3247C19.1984 15.8066 18.8068 17.2622 18.0636 18.5438C17.3204 19.8255 16.2519 20.8878 14.9664 21.623L10.1944 24.3516C10.0131 24.4553 9.808 24.5098 9.59925 24.5098C9.3905 24.5098 9.18536 24.4553 9.0041 24.3516L4.23207 21.623C2.94621 20.8876 1.87749 19.8249 1.13426 18.5428C0.391033 17.2607 -0.000277774 15.8046 1.47938e-07 14.3223V6.0861C5.20087e-05 5.61611 0.137865 5.15647 0.396366 4.7641C0.654866 4.37174 1.0227 4.0639 1.45429 3.87873L9.12649 0.588073V0.585671ZM14.0473 10.9464C14.2659 10.7199 14.3868 10.4165 14.3841 10.1017C14.3814 9.78677 14.2552 9.48555 14.0327 9.26288C13.8102 9.04021 13.5093 8.91391 13.1946 8.91117C12.88 8.90844 12.5769 9.02949 12.3506 9.24825L8.39934 13.203L6.84786 11.6502C6.62156 11.4314 6.31846 11.3104 6.00385 11.3131C5.68924 11.3158 5.38829 11.4421 5.16581 11.6648C4.94334 11.8875 4.81715 12.1887 4.81442 12.5036C4.81168 12.8185 4.93263 13.1219 5.1512 13.3484L7.55101 15.7503C7.77603 15.9754 8.08117 16.1019 8.39934 16.1019C8.71752 16.1019 9.02266 15.9754 9.24768 15.7503L14.0473 10.9464Z" fill="#00D280"/>
                 </svg>
               </span>
               <span className='font-bold ml-2 text-xs md:text-base'>2198 companies signed up in the last week alone!</span>

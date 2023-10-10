@@ -2,9 +2,9 @@ import React from "react";
 import './App.css';
 // import BenefitIcon1 from "./public/icons/Bicon1.png";
 
-function Benefits() {
+function Benefits () {
     return (
-        <section id="benefits" className='py-12'>
+        <section id="benefits" className='pt-8 pb-5'>
             <div className="container-fluid mx-auto px-4 md:container md:mx-auto">
                 <div className="row">
 
@@ -31,8 +31,8 @@ function Benefits() {
 
                         <div className="flex">
                             <div className="float-left justify-center items-center ">
-                                <div class="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-redColor overflow-hidden">
-                                    <img src="././icons/Bicon1.png" alt=" " class="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
+                                <div className="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-redColor overflow-hidden">
+                                    <img src="././icons/Bicon1.png" alt=" " className="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
                                 </div>
                             </div>
                             <div className="float-right pl-5">
@@ -47,8 +47,8 @@ function Benefits() {
 
                         <div className="flex">
                             <div className="float-left justify-center items-center ">
-                                <div class="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-yellowColor overflow-hidden">
-                                    <img src="././icons/Bicon2.png" alt=" " class="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
+                                <div className="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-yellowColor overflow-hidden">
+                                    <img src="././icons/Bicon2.png" alt=" " className="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
                                 </div>
                             </div>
                             <div className="float-right pl-5">
@@ -63,8 +63,8 @@ function Benefits() {
 
                         <div className="flex">
                             <div className="float-left justify-center items-center ">
-                                <div class="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-purpleColor overflow-hidden">
-                                    <img src="././icons/Bicon3.png" alt=" " class="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
+                                <div className="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-purpleColor overflow-hidden">
+                                    <img src="././icons/Bicon3.png" alt=" " className="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
                                 </div>
                             </div>
                             <div className="float-right pl-5">
@@ -79,8 +79,8 @@ function Benefits() {
 
                         <div className="flex">
                             <div className="float-left justify-center items-center ">
-                                <div class="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-purpleColor overflow-hidden">
-                                    <img src="././icons/Bicon4.png" alt=" " class="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
+                                <div className="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-purpleColor overflow-hidden">
+                                    <img src="././icons/Bicon4.png" alt=" " className="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
                                 </div>
                             </div>
                             <div className="float-right pl-5">
@@ -95,8 +95,8 @@ function Benefits() {
 
                         <div className="flex">
                             <div className="float-left justify-center items-center ">
-                                <div class="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-greenColor overflow-hidden">
-                                    <img src="././icons/Bicon5.png" alt=" " class="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
+                                <div className="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-greenColor overflow-hidden">
+                                    <img src="././icons/Bicon5.png" alt=" " className="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
                                 </div>
                             </div>
                             <div className="float-right pl-5">
@@ -111,8 +111,8 @@ function Benefits() {
 
                         <div className="flex">
                             <div className="float-left justify-center items-center ">
-                                <div class="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-redColor overflow-hidden">
-                                    <img src="././icons/Bicon6.png" alt=" " class="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
+                                <div className="relative rounded-full w-[40px] h-[40px] md:w-[60px] md:h-[60px] bg-redColor overflow-hidden">
+                                    <img src="././icons/Bicon6.png" alt=" " className="absolute w-[18px] h-[18px] md:w-[26px] md:h-[26px] inset-0 object-cover mx-auto my-auto" />
                                 </div>
                             </div>
                             <div className="float-right pl-5">
